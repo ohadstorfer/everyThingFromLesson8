@@ -37,16 +37,14 @@
 # print ("welcome to berlin, "+n1+"!")
 
 
-def find_larger_number(num1, num2):
-    if num1 > num2:
-        return num1
-    else:
-        return num2
+from m import find_larger_number
+if __name__ ==  '__main__':
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
+    find_larger_number(num1, num2)
+      
 
-# Get input from the user
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
 
-# Call the function and print the result
-larger_number = find_larger_number(num1, num2)
-print("The larger number is:", larger_number)
+ 
+
+ 
